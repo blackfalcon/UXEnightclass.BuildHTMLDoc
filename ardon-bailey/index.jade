@@ -1,12 +1,8 @@
 doctype html
-html.no-js
-  // <![endif]
+html
   head
     meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
     title  Code Fellows
-    script(type='text/javascript').
-    meta(name='Front-End Developer', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
   body
     header
@@ -32,7 +28,7 @@ html.no-js
           li Sike, yeah.
     section
       h1 Contact
-      p ardon@codefellows.com
+      a(href='ardon@codefellows.com') email
     aside
         form
             input#search(type="search" placeholder="What you lookin for?")
@@ -58,4 +54,3 @@ html.no-js
             input#message-box.form-box(name='text', placeholder='What the hell you tryin to tell me?')
     footer
       h1 This is the footer
-    script (src="//localhost:35729/livereload.js")
