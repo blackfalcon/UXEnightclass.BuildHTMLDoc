@@ -1,62 +1,61 @@
-# UXE - Build an HTML Document
+# [HTML5 Boilerplate](http://html5boilerplate.com)
 
-For this section of the course, students will be required to create a single page Web Site that incorporates best practices for building an HTML document. 
+HTML5 Boilerplate is a professional front-end template for building fast,
+robust, and adaptable web apps or sites.
 
-## Submitting assignments
+This project is the product of many years of iterative development and combined
+community knowledge. It does not impose a specific development philosophy or
+framework, so you're free to architect your code in the way that you want.
 
-Submitting assignments for this course will require leveraging some of the more advanced features of Github. These features will not only improve your knowledge of Git and Github, but also provide practice exercises for working on a distributed project with a large team. 
-
-## How to submit an assignment
-
-In order to submit assignments, please use the following steps
-
-1. [Fork this repo][1] so that you have a working version
-1. [Clone the forked repo][2] to your local computer
-1. Create a folder named with your name, example `dale-sande`
-1. Once completed with your assignment, commit code to the master branch and push to Github `git push origin master`
-1. From __your fork__ of the project, initiate a pull request to the parent repo
-
-## Assignment review
-
-When a pull request is initiated, I will be notified of the update and comment on the submitted assignment via Github tools. 
-
-## Keeping your local repo up to date
-Your local repo will be an independent version of the original repo from the moment you fork the repo. In order to keep your local repo up to date with the original repo, you need to do what is called an [upstream pull][3].
-
-To manage an upstream pull, I suggest updating your `.bash_profile` and your `.gitconfig` file with easy to remember aliases. 
-
-### .bash_profile
-
-In your `.bash_profile` add the following alias
-
-```
-alias upstream="git remote add upstream \$@"
-```
-
-From the command line you simply need to refer to the alias and add the path to the upstream repo as shown in the following example.
-
-```
-$ upstream https://github.com/blackfalcon/unicorn-class-css-section.git
-```
-
-Once the upstream repo is configured for your local repo, this never needs to be reset again, unless you delete your local repo. 
-
-### .gitconfig
-In your `.gitconfig` add the following alias
-
-```
-pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
-```
-
-From the command line, within the project repo, enter the following command to pull latest code from the upstream master.
-
-```
-git pu 
-```
+* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
+* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
+* Twitter: [@h5bp](http://twitter.com/h5bp)
 
 
+## Quick start
+
+Choose one of the following options:
+
+1. Download the latest stable release from
+   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
+   [Initializr](http://www.initializr.com).
+2. Clone the git repo — `git clone
+   https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
+   release you'd like to use.
 
 
-[1]:https://help.github.com/articles/fork-a-repo
-[2]:https://help.github.com/articles/fork-a-repo#step-2-clone-your-fork
-[3]:https://help.github.com/articles/syncing-a-fork
+## Features
+
+* HTML5 ready. Use the new elements with confidence.
+* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
+* Designed with progressive enhancement in mind.
+* Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
+  normalizations and common bug fixes.
+* The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
+* The latest [Modernizr](http://modernizr.com/) build for feature detection.
+* IE-specific classes for easier cross-browser control.
+* Placeholder CSS Media Queries.
+* Useful CSS helpers.
+* Default print CSS, performance optimized.
+* Protection against any stray `console.log` causing JavaScript errors in
+  IE6/7.
+* An optimized Google Analytics snippet.
+* Apache server caching, compression, and other configuration defaults for
+  Grade-A performance.
+* Cross-domain Ajax and Flash.
+* "Delete-key friendly." Easy to strip out parts you don't need.
+* Extensive inline and accompanying documentation.
+
+
+## Documentation
+
+Take a look at the [documentation table of contents](doc/TOC.md). This
+documentation is bundled with the project, which makes it readily available for
+offline reading and provides a useful starting point for any documentation you
+want to write about your project.
+
+
+## Contributing
+
+Anyone and everyone is welcome to [contribute](CONTRIBUTING.md). Hundreds of
+developers have helped make the HTML5 Boilerplate what it is today.
