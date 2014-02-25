@@ -31,22 +31,16 @@ html.no-js
       form#contact
         fieldset
           legend Who Are You?
-          ol
-            li
-              label(for='name') name
-              input(id='name' name='name' type='text' placehoder='Your Name' autofocus='true' required)
-            li
-              label(for='email') Email
-              input(id='email' name='email' type='email' placeholder='example@domain.com' required)
-            li
-              lable(for='phone') Phone Number
-              input(id='phone' name='phone' type='tel' placeholder='xxx.xxx.xxxx' required)
+          label(for='name') name
+          input(id='name' name='name' type='text' placehoder='Your Name' autofocus='true' required)
+          label(for='email') Email
+          input(id='email' name='email' type='email' placeholder='example@domain.com' required)
+          lable(for='phone') Phone Number
+          input(id='phone' name='phone' type='tel' placeholder='xxx.xxx.xxxx' required)
         fieldset
           legend Your Message
-          ol
-            li
-              lable(for='message') Message
-              input(id='message' name='message' type='text' placeholder='Your message here.' required)
+          lable(for='message') Message
+          input(id='message' name='message' type='text' placeholder='Your message here.' required)
     footer
       p Footer Copy Here.
     script(src="//localhost:35729/livereload.js")
